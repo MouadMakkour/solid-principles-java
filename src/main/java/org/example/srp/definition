@@ -1,0 +1,12 @@
+"A class should have only one reason to change."
+
+This means that a class should have only one job or responsibility.
+When a class has more than one responsibility,
+changes to one part of the class can affect other parts,
+leading to fragile code and making it harder to maintain and extend.
+
+Scenario:
+
+Let's say we are building a Book Management System,
+and we have a class that manages both book-related data and handles file export functionality.
+This violates SRP because the class is doing two things—book management and exporting to a file.

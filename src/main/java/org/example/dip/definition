@@ -1,0 +1,11 @@
+"High-level modules should not depend on low-level modules.
+ Both should depend on abstractions (e.g., interfaces or abstract classes)."
+
+ In simpler terms, the Dependency Inversion Principle
+ suggests that classes should rely on abstractions rather than on concrete implementations.
+ This makes the system more flexible and easier to maintain because
+ changing the implementation won’t affect the higher-level components.
+
+ Scenario: Logging in an Application
+
+ Imagine you are developing an application, and you need to add logging functionality.

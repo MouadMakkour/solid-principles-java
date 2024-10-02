@@ -1,0 +1,16 @@
+"Software entities (classes, modules, functions, etc.)
+should be open for extension but closed for modification."
+
+- Open for Extension: You should be able to extend the behavior of a class
+(usually through inheritance or composition).
+
+- Closed for Modification: The existing code should not be changed when new behavior is added.
+
+Scenario:
+
+You are developing an e-commerce application that handles payments.
+Initially, the application supports credit card payments.
+Later, the business expands, and you need to add support for PayPal,
+Google Pay, and Apple Pay. Instead of modifying the existing payment
+handling code each time a new payment method is added,
+you want to follow OCP so that the system is open for extension but closed for modification.
